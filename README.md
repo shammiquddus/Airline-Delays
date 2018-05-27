@@ -2,7 +2,7 @@
 Predicting airline delays in the US using Department of Transportation (DOT) public data. Classwork for Harvard CS109A
 Code contains EDA, logit model and final conclusions of factors that strongly predict airline delays of domestic flights in the US.
 
-#### KEY DESIGN DECISIONS AND METHODOLOGY
+#### MODEL CHOICE
 The main design decisions were cleaning up data of colinear predictors and  keeping predictors to a managable number and one that lets either customers or the airline industry take actionable decision was a key decision factor. The final number of predictors I worked with is 36. 
 
 Classification model to predict Y/N delay of flight: Tried four different classification models to see which results in accuracy higher than 90% and AUC higher than 0.6 (the base case). I decided upon regularized logistic.
